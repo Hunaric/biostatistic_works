@@ -14,7 +14,7 @@ from sklearn import datasets
 
 # iris = datasets.load_iris()
 
-data = pd.read_excel(r'C:\Users\natha\Desktop\BioStat\Iris.xls', sheet_name='Data')     
+data = pd.read_excel(r'Iris.xls', sheet_name='Data')     
 len(data)
 
 # To have a look to null cells in the EDA
